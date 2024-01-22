@@ -1,4 +1,4 @@
-package jan7;
+package jan10;
 
 import java.util.Scanner;
 

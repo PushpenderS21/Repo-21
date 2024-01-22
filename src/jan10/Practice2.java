@@ -1,4 +1,4 @@
-package jan7;
+package jan10;
 
 
 import java.util.Scanner;
@@ -124,17 +124,16 @@ double avg =sum/5;
             default -> System.out.println("invalid entry");
         }*/
 
-        Scanner scanner =new Scanner(System.in);
+        Scanner scanner = new Scanner(System.in);
         System.out.println("Enter any alphabet");
         char alpha;
-        alpha=scanner.next().charAt(0);
-        if (alpha=='a'||alpha=='e'||alpha=='i'||alpha=='o'||alpha=='u'){
+        alpha = scanner.next().charAt(0);
+        if (alpha == 'a' || alpha == 'e' || alpha == 'i' || alpha == 'o' || alpha == 'u') {
             System.out.println("It's a vowel");
-        }
-        else{
+        } else {
             System.out.println("Its a consonant");
 
         }
-        }
-
     }
+
+}

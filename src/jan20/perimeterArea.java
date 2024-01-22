@@ -1,4 +1,4 @@
-/*class  Square{
+package jan20;/*class  Square{
     double side;
     double perimeter;
     double area;
@@ -7,8 +7,8 @@
         return result;
     }
     public double getArea(){
-        double Area =side*side;
-        return Area;
+        double jan20.Area =side*side;
+        return jan20.Area;
     }
         }
 class Rectangle{
@@ -26,30 +26,33 @@ class Rectangle{
     }
 }*/
 
-class TommyVeciti{
+class TommyVeciti {
     String hitting;
     String running;
     String firing;
 
-    public void Hit(){
+    public void Hit() {
         System.out.println("you are hitting");
     }
-    public void Run(){
+
+    public void Run() {
         System.out.println("you are running");
     }
-    public void Fire(){
+
+    public void Fire() {
         System.out.println("you are firing");
     }
 
 }
+
 public class perimeterArea {
     public static void main(String[] args) {
 /*Square  square =new Square();
         square.side=10;
      double Perimeter= square.getPerimeter();
-     double Area = square.getArea();
+     double jan20.Area = square.getArea();
         System.out.println("The Perimeter of the is " + Perimeter);
-        System.out.println("The area of the square is " +Area);
+        System.out.println("The area of the square is " +jan20.Area);
 
         Rectangle rectangle =new Rectangle();
         rectangle.length=10;

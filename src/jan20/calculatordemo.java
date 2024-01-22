@@ -1,3 +1,5 @@
+package jan20;
+
 import java.util.Scanner;
 
 public class calculatordemo {
@@ -123,15 +125,13 @@ public class calculatordemo {
             }
             System.out.println("do you want to continue press 1 for yes and 2 for no");
             n = scanner.nextInt();
-            if (n == 2) {
-                System.out.println("thanks for using calculator");
-            } else {
-                System.out.println("enter a valid number");
-                n = scanner.nextInt();
-                
-            }
 
         } while (n == 1);
+        if (n == 2) {
+            System.out.println("thanks for using calculator");
+        } else {
+            System.out.println("Invalid choice");
+        }
 
 
     }

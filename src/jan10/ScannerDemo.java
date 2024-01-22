@@ -1,6 +1,5 @@
-package jan7;
+package jan10;
 
-import javax.swing.*;
 import java.util.Scanner;
 
 public class ScannerDemo {
@@ -53,25 +52,20 @@ public class ScannerDemo {
             System.out.println(z+" is greatest");
         }*/
         System.out.println("Enter the marks");
-        int marks =scanner.nextInt();
-        if (marks>=90){
+        int marks = scanner.nextInt();
+        if (marks >= 90) {
             System.out.println("Your grade is A");
-        }
-        else if (marks<90 && marks>=80){
+        } else if (marks < 90 && marks >= 80) {
             System.out.println("Your grade is B");
-        }
-        else if (marks<80&&marks>=70) {
+        } else if (marks < 80 && marks >= 70) {
             System.out.println("Your garde is C");
-        }
-        else if (marks<70 && marks>=60){
+        } else if (marks < 70 && marks >= 60) {
             System.out.println("Your garde is D");
-            
-        }
-        else if (marks<60 && marks>=0) {
+
+        } else if (marks < 60 && marks >= 0) {
             System.out.println("Your garde is F");
-            
-        }
-        else {
+
+        } else {
             System.out.println("Enter valid marks");
 
         }

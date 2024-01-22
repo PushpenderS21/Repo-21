@@ -1,3 +1,5 @@
+package jan20;
+
 import java.util.Scanner;
 
 public class areaDemo {
@@ -25,7 +27,7 @@ public class areaDemo {
                 case 2:
                     System.out.println("Enter the side of square");
                     x = scanner.nextInt();
-                    System.out.println("Area of square is " + math.squareArea(x));
+                    System.out.println("jan20.Area of square is " + math.squareArea(x));
                     break;
                 case 3:
                     System.out.println("Enter the sides of rectangle");
@@ -37,7 +39,7 @@ public class areaDemo {
                     System.out.println("Enter the sides of rectangle");
                     x = scanner.nextInt();
                     y = scanner.nextInt();
-                    System.out.println("Area of rectangle is " + math.rectangleArea(x, y));
+                    System.out.println("jan20.Area of rectangle is " + math.rectangleArea(x, y));
                     break;
                 case 5:
                     System.out.println("Enter the radius of circle");
@@ -47,7 +49,7 @@ public class areaDemo {
                 case 6:
                     System.out.println("Enter the radius of circle");
                     x = scanner.nextInt();
-                    System.out.println("Area of circle is " + math.circleArea(x));
+                    System.out.println("jan20.Area of circle is " + math.circleArea(x));
                     break;
                 default:
                     System.out.println("Invalid choice");
