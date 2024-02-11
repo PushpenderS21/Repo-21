@@ -1,4 +1,4 @@
-package jan23;
+package Assigments;
 
 import java.util.Scanner;
 
