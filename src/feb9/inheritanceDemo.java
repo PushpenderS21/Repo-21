@@ -67,17 +67,12 @@ class ElectricVehicle extends Car {
 
 public class inheritanceDemo {
     public static void main(String[] args) {
-        Car car = new Car("Ford", "Fusion", 2011);
+        Vehicle car = new Car("Ford", "Fusion", 2011);
         MotorCycle motorcycle = new MotorCycle("Yamaha", "Fz-S", 2016);
         ElectricVehicle electricVehicle = new ElectricVehicle("Tesla", "Y-model", 2020);
         car.displayInfo();
 
 
-        car.numberOfDoors();
-        motorcycle.displayInfo();
-        motorcycle.numberOfCylinders();
-
-        
         electricVehicle.displayInfo();
         electricVehicle.batteryCapacity();
     }
